@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar() {
     return (
-        <div className='w-full px-20 py-8 flex justify-between items-center'>
+        <div className='fixed z-[999] w-full px-20 py-8 flex justify-between items-center'>
             <div className='logo text-xl'>OCHI</div>
             <div className='links flex gap-10'>
                 {["Services", "Our works", "About us", "Insights", "Contact"].map((item, index) => (
